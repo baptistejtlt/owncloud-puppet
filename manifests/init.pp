@@ -1,6 +1,7 @@
-#title           :init.pp
+#title           :Init.pp
 #description     :This file is a part of module puppet-owncloud.
-#author		 :baptistejtlt
+#usage           :Class definition to install and configure Owncloud.
+#author		 :Baptistejtlt
 #date            :20160606   
 #==============================================================================
 
