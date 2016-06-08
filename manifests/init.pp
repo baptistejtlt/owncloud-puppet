@@ -6,8 +6,8 @@
 #==============================================================================
 
 class owncloud (
-  $admin_pass      = '',
-  $admin_user      = '',
+  $admin_pass      = 'administrator',
+  $admin_user      = 'Passw0rd',
   $db_host         = 'localhost',
   $db_name         = 'owncloud',
   $db_table_prefix = '',
