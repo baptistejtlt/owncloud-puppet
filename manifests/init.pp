@@ -33,15 +33,7 @@ class owncloud (
 )
 
 inherits ::owncloud::params {
-
-  validate_bool($manage_apache)
-  validate_bool($manage_db)
-  validate_bool($manage_repo)
-  validate_bool($manage_skeleton)
-  validate_bool($manage_vhost)
-  validate_bool($ssl)
-
-  validate_re($db_type, '^mysql$', '$database must be \'mysql\'')
+}
 
   class { '::owncloud::install': } ->
   class { '::owncloud::apache': } ->
